@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+header .logo img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    background: #e3e3e3;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner h1, .banner p {
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #fff;
+}
+
+.image {
+    max-width: 45%;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.form {
+    max-width: 45%;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+.separator {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.info {
+    text-align: center;
+    padding: 20px;
+    background: #e3e3e3;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info li {
+    padding: 10px 0;
+}
